@@ -15,8 +15,7 @@ import kodlama.io.rentACar.entities.concretes.Brand;
 @Service // this class is a Business object
 public class BrandManager implements BrandService{
 	private BrandRepository brandRepository;
-	
-	@Autowired
+
 	public BrandManager(BrandRepository brandRepository) {
 		super();
 		this.brandRepository = brandRepository;
